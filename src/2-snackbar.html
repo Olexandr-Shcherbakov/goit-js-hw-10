@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+
+<form class="form">
+      <label class="lab2">
+        Delay (ms)
+        <input class="inp2" type="number" name="delay" required />
+      </label>
+
+      <fieldset>
+        <legend class="lab2">State</legend>
+        <label class="labfield">
+          <input class="inpfield" type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label class="labfield">
+          <input class="inpfield" type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button class="buttnsnac" type="submit">Create notification</button>
+    </form>
+
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
